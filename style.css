@@ -194,3 +194,85 @@ button{
 .fh>h2{
     margin-left: 3rem;
 }
+
+.rw{
+    width: 36rem;
+    height: 33rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.262);
+}
+.rw1{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+    font-size: 1.6rem;
+    background-color: white;
+}
+.down{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.rw2{
+    position: relative;
+    width: 37rem;
+    height: 40rem;
+    color: white;
+    overflow: hidden;
+}
+.rw-img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+}
+.rw-img>img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    object-fit: cover;
+    transition: 0.1s linear;
+}
+.content{
+    z-index: 1;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    text-align: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+.content>div>h2{
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+.rw2:hover .rw-img>img{
+    opacity: 0.2;
+}
+.rw-handle{
+    align-items: end;
+}
+.reviews{
+    position: relative;
+    background-color: #F8F7F4;
+}
+.rw-main-img{
+    position: absolute;
+    left: 0rem;
+    top: 0rem;
+    opacity: 0.3;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #F6F5F2;
+}
+.logos>h2{
+    font-size: 2.5rem;
+}
